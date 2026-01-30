@@ -1,13 +1,3 @@
-"""
-Limit Order Book (LOB) Market Making Simulator
-- Discrete-event top-of-book LOB with queues, limit arrivals, cancellations, and market orders
-- Inventory-aware + adverse-selection-aware market making policy (Avellaneda-Stoikov-inspired)
-- PnL decomposition: spread capture, inventory revaluation, adverse selection (effective vs realized spread)
-- Regime evaluation (low/high volatility) and key plots
-
-Dependencies: numpy, pandas, matplotlib
-"""
-
 from __future__ import annotations
 
 from dataclasses import dataclass
