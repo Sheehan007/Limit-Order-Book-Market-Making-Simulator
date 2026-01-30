@@ -1,7 +1,7 @@
 # Limit-Order-Book-Market-Making-Simulator
 Python Limit Order Book Market-Making Simulator with Inventory and Adverse Selection Control
 
-**Background and design objectives**
+**Background**
 
 A limit order book (LOB) is the core matching mechanism in most modern electronic markets: it stores outstanding buy/sell limit orders by price and time priority, and is updated by discrete book events—limit submissions, cancellations, and market orders—whose interaction determines spread, depth, and price dynamics.
 For quant research and trading-role credibility, a simulator should do more than “random-walk price + spread”: it should 
