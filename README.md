@@ -15,5 +15,3 @@ For quant research and trading-role credibility, a simulator should do more than
 (iv) support inventory-aware quoting in a way that can be stress-tested across volatility regimes. Inventory control is a central element of canonical optimal market-making models (e.g., Avellaneda–Stoikov), where the dealer balances spread capture against inventory risk.
 
 Adverse selection is structural in market microstructure: informed trading forces liquidity providers to widen spreads or reduce exposure, as formalized in classic theory (Glosten–Milgrom). Empirically and mechanistically, short-horizon price changes are strongly driven by order-book event imbalance (OFI), and order-book signals can be used to mitigate adverse selection in execution/market-making strategies.
-
-A similar business model is used by major proprietary trading firms such as IMC Trading. 
